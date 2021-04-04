@@ -1,0 +1,191 @@
+* {
+    font-family: BrandonGrotesqueWeb-Bold,Verdana;
+    color: white;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/*D91A32 default red */
+
+
+/* Header Formatting */
+
+#header_advert {
+    height: auto;
+    font-size: .75rem;
+    background-color: Black;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: right;
+}
+
+
+#header_bar {
+     font-size: 1.2rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    top: 0;
+    background-color: #D91A32;
+    height: auto;
+    
+}
+
+.ff_logo {
+    width: 100px;
+    height: 100px;
+}
+
+header div h1 {
+    font-size: 1.5rem;
+    display: inline;
+    text-align: right;
+}
+
+
+/* Body Main Content */
+html { 
+    overflow-y: scroll; 
+    overflow-x:hidden; }
+
+    body {
+        padding-bottom: 170px;
+        margin:0;
+        padding:0;
+        height:100%;
+}
+
+/* Borrowed from Code Institute's Love Running project */
+#hero-image{
+    height:600px;
+    width: 100%;
+    background: url("https://www.fitnessfirstjersey.com/wp-content/uploads/2018/08/07.29-Fintess-First_0022_0055.jpg") no-repeat center center;
+    background-size: cover;
+  
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+
+}
+
+#hero-outer{
+    height:600px;
+    width: 100%;
+    overflow:hidden;
+    position: relative;
+}
+#cover-text {
+    font-size: 130%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    float: left;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color:#D91A32;
+
+    
+
+    bottom:40px;
+    padding-left: 50px;
+
+    position: absolute;
+
+}
+
+/* End */
+
+#quick_nav {
+    font-size: 130%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    float: left;
+
+    width: 200px;
+    height: 125px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color:black;
+    
+
+    top:40px;
+    right: 200px;
+
+    text-align: center;
+
+    position: absolute;
+
+
+}
+
+#quick_nav h6 {
+    top: 0;
+    margin: 5px;
+    text-transform: uppercase;
+    text-decoration: underline;   
+}
+
+#quick_nav li {
+    list-style-type: none;
+}
+
+#quick_nav li a {
+ 
+    text-decoration: none;
+    letter-spacing: 10px;
+}
+
+
+#main_section {
+    height: 500px;
+    background-color: black;
+}
+
+
+/* ********* Footer Formatting ********* */
+
+
+.footer_div {
+   padding-left: 10%;
+   padding-right: 10%;
+    text-align: center; 
+    font-size: .75rem;
+    text-transform: uppercase;
+    background-color: #D91A32;
+}
+
+.footer_p_format {
+    text-align: center; 
+    font-size: .5rem;
+}
+
+footer div h1 {
+    font-size: 1.25rem;
+    text-transform: uppercase;
+}
+
+
+/* Social networks code below borrowed from Code Institute Love running project */
+.social-networks{
+    text-align: center;
+}
+
+.social-networks li {
+    display:inline;
+}
+
+.social-networks i {
+    font-size: 3rem;
+    padding: 1%;
+    color:white;
+}
+/* End */
+
+
+
