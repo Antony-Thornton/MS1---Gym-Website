@@ -59,9 +59,14 @@ html {
 }
 
 .heading_signpost {
-    background-color: Black; 
-    text-align: center;
+    background-color:#D91A32; 
+    text-align: left;
     padding: 2px;
+    padding-left: 13%;
+
+    font-size: 130%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
 }
 
 /* Borrowed from Code Institute's Love Running project */
@@ -285,6 +290,51 @@ html {
     width: 100%;
 }
 
+/* ********* Main column content Classes Page ********* */
+
+.col {
+    width: 25%;
+    height: 1000px;
+    background-color: #D91A32;
+    float: left;
+    padding-left: 10%;
+    padding-right: 10%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.col img {
+    max-height: 300px;
+    max-width: 300px;
+}
+
+.col h3 {
+    background-color: black;
+    
+}
+
+.col div p {
+    margin: 10px;
+}
+
+
+.table_format {
+    background-color: black;
+    border-collapse: collapse white;
+    margin: 0 auto;
+}
+.table_format th {
+
+border: 2px solid white;
+}
+
+.table_format td {
+    border: 1px solid white;
+}
+
+
+
+
 /* ********* Footer Formatting ********* */
 
 
@@ -300,6 +350,7 @@ html {
 .footer_p_format {
     text-align: center; 
     font-size: .5rem;
+    text-transform: none;
 }
 
 footer div h1 {
