@@ -294,18 +294,15 @@ html {
 
 .col {
     width: 25%;
-    height: 1000px;
+    height: 300px;
     background-color: #D91A32;
     float: left;
     padding-left: 10%;
     padding-right: 10%;
     border: 1px solid black;
     text-align: center;
-}
+    display: inline;
 
-.col img {
-    max-height: 300px;
-    max-width: 300px;
 }
 
 .col h3 {
