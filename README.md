@@ -20,6 +20,21 @@ The overal story would be as follows:
 * Once loaded, the homepage will help the user understand the structure of the website, what pages it has and how to get more information
 * The user can then chose between visiting the; Home page, Classes information page, gallery and Join page
 
+## Wireframes
+
+SiteMap
+
+![index web](https://indigo-gopher-zdzjvzmp.ws-eu04.gitpod.io/files/download/?id=8716c400-48aa-4d19-ac41-102e6eef11da)
+
+Mobile Wireframe
+
+![index web](https://indigo-gopher-zdzjvzmp.ws-eu04.gitpod.io/files/download/?id=85489aed-647d-49cf-b583-457c2bb08948)
+
+Website Wireframe
+
+![index web](https://indigo-gopher-zdzjvzmp.ws-eu04.gitpod.io/files/download/?id=89da6278-0f1d-43bf-a450-bc1a171665af)
+
+
 ## Website Objectives:
 * Increase the profile of the gym
 * Entice new members to the website
@@ -55,7 +70,7 @@ HTML 5 - https://html.com/html5/
 
 CSS - https://en.wikipedia.org/wiki/CSS
 
-Bootstrap v5 - https://getbootstrap.com/docs/5.0/getting-started/introduction/
+Bootstrap v5 (used as reference) - https://getbootstrap.com/docs/5.0/getting-started/introduction/
 
 Balsamiq Wireframes - https://balsamiq.com/wireframes/
 
