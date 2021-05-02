@@ -107,6 +107,7 @@ for references to using gitpod. Specifically openeing a preview.
 https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project 
 for help with this ReadMe.
 
+Thank you especially to my mentor Marcel for the time and effort provided. Including during his weekend.
 
 # Lessons learnt
 ## Lessons
