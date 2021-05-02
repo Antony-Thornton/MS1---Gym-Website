@@ -329,7 +329,75 @@ border: 2px solid white;
     border: 1px solid white;
 }
 
+.form {
+    color: black;
 
+}
+
+.custom_select {
+    color: black;
+}
+
+.custom_select option {
+    color: black;
+
+}
+
+#firstname {
+    color: black;
+}
+
+#secondname {
+    color: black;
+}
+
+#birthdate {
+    color: black;
+}
+
+#email:hover  {
+    background-color: black;
+    color: white;
+}
+
+#birthdate:hover {
+    background-color: black;
+    color: white;
+}
+
+#firstname:hover {
+    background-color: black;
+    color: white;
+}
+#secondname:hover {
+    background-color: black;
+    color: white;
+}
+#email:hover {
+    background-color: black;
+    color: white;
+}
+
+#birthdate:hover {
+    background-color: black;
+    color: white;
+}
+
+
+.button {
+ background-color: black; /* Green */
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.button:hover {
+ background-color: white; /* Green */
+  color: Black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
 
 
 /* ********* Footer Formatting ********* */

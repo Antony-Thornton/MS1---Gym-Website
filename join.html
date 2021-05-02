@@ -15,7 +15,7 @@
     <header>
         <div id="header_advert">
             <a href="join.html">
-            <p>Sign up now to join with no fee!</p>
+            <p>Sign up now to join with no fee joining fee!</p>
             </a>
         </div>
         <div id="header_bar">
@@ -85,7 +85,7 @@
             <td>£100</td>
         </tr>
                 <tr>
-            <td>Swim Only</td>
+            <td>Peak - Gym Only</td>
             <td>£15</td>
             <td>£150</td>
         </tr>
@@ -94,7 +94,35 @@
 
         </Div>
         <Div class="col">
-                
+
+
+                <form method="post" action="https://formdump.codeinstitute.net/" class="form">
+                                <h4>Please complete the form below.</h4>
+                <h5>Select prefered membership using the dropdown box:</h5>
+                <select class="custom_select"  required>
+                    <option selected></option>
+                    <option value="1">£100 - Off Peak (Gym Only)</option>
+                    <option value="2">£150 - Peak (Gym Only)</option>
+                    <option value="3">£175 - Swim Only</option>
+                    <option value="4">£200 - Off Peak</option>
+                    <option value="5">£300 - Peak</option>
+                </select>
+
+
+                <label for="firstname">First name:</label>
+                <input type="name" id="firstname" placeholder="First name" required>
+                <label for="secondname">Surname:</label>
+                <input type="name" id="secondname" placeholder="Surname" required>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email"name="email" placeholder="Email Address" required>
+                <label for="birthdate">Date of Birth:</label>
+                <input type="date" id="birthdate" name="birthdate" required>
+                <input type="submit" value="Submit" class="button">
+                <input type="reset" value="Clear Form" class="button">
+</form>
+
+
+
         </Div>
     </section>
     
