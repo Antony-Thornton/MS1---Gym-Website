@@ -290,6 +290,8 @@ html {
     width: 100%;
 }
 
+
+
 /* ********* Main column content Classes Page ********* */
 
 .col {
@@ -329,10 +331,42 @@ border: 2px solid white;
     border: 1px solid white;
 }
 
-.form {
-    color: black;
+.col_form {
+    width: 100%;
+    height: 600px;
+    background-color: #D91A32;
+    float: left;
+    padding-left: 10%;
+    padding-right: 10%;
+    border: 1px solid black;
+    text-align: center;
+    background: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallsdesk.com%2Fwp-content%2Fuploads%2F2016%2F10%2FGym-Desktop.jpg&f=1&nofb=1") no-repeat center center;
+    background-size: cover;
+  
 
 }
+
+.form {
+    margin-top: 280px;
+    color: #fff;
+    background-color:  #D91A32;
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+    
+}
+.form_backup_text {
+    margin-top: 60px;
+    color: #fff;
+    background-color: #D91A32;
+    max-width: 400px;
+    position: absolute;
+    right: 10%;
+    padding: 30px;
+
+}
+
 
 .custom_select {
     color: black;

@@ -56,72 +56,43 @@
     </section>
     <!--Borrow End-->
     <section id="main_section">
-        <Div class="col">
-        <table class="table_format">
-        <tr>
-            <th>Option</th>
-            <th>Price (P/M)</th>
-            <th>Price (P/Y)</th>
-
-        </tr>
-        <tr>
-            <td>Off Peak</td>
-            <td>£20</td>
-            <td>£200</td>
-        </tr>
-        <tr>
-            <td>Peak</td>
-            <td>£30</td>
-            <td>£300</td>
-        </tr>
-        <tr>
-            <td>Swim Only</td>
-            <td>£17.50</td>
-            <td>£175</td>
-        </tr>
-                <tr>
-            <td>Off Peak - Gym Only</td>
-            <td>£10</td>
-            <td>£100</td>
-        </tr>
-                <tr>
-            <td>Peak - Gym Only</td>
-            <td>£15</td>
-            <td>£150</td>
-        </tr>
-
-    </table>
-
-        </Div>
-        <Div class="col">
+        
+        
+        <Div class="col_form">
+                <div>
+                    <form method="post" action="https://formdump.codeinstitute.net/" class="form">
+                                    <h4>Please complete the form below.</h4>
+                    <h5>Select prefered membership using the dropdown box:</h5>
+                    <select class="custom_select"  required>
+                        <option selected></option>
+                        <option value="1">£100 - Off Peak (Gym Only)</option>
+                        <option value="2">£150 - Peak (Gym Only)</option>
+                        <option value="3">£175 - Swim Only</option>
+                        <option value="4">£200 - Off Peak</option>
+                        <option value="5">£300 - Peak</option>
+                    </select>
 
 
-                <form method="post" action="https://formdump.codeinstitute.net/" class="form">
-                                <h4>Please complete the form below.</h4>
-                <h5>Select prefered membership using the dropdown box:</h5>
-                <select class="custom_select"  required>
-                    <option selected></option>
-                    <option value="1">£100 - Off Peak (Gym Only)</option>
-                    <option value="2">£150 - Peak (Gym Only)</option>
-                    <option value="3">£175 - Swim Only</option>
-                    <option value="4">£200 - Off Peak</option>
-                    <option value="5">£300 - Peak</option>
-                </select>
+                    <label for="firstname">First name:</label>
+                    <input type="name" id="firstname" placeholder="First name" required>
+                    <label for="secondname">Surname:</label>
+                    <input type="name" id="secondname" placeholder="Surname" required>
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email"name="email" placeholder="Email Address" required>
+                    <label for="birthdate">Date of Birth:</label>
+                    <input type="date" id="birthdate" name="birthdate" required>
+                    <input type="submit" value="Submit" class="button">
+                    <input type="reset" value="Clear Form" class="button">
+                    </form>     
+                </div>
 
-
-                <label for="firstname">First name:</label>
-                <input type="name" id="firstname" placeholder="First name" required>
-                <label for="secondname">Surname:</label>
-                <input type="name" id="secondname" placeholder="Surname" required>
-                <label for="email">Email Address:</label>
-                <input type="email" id="email"name="email" placeholder="Email Address" required>
-                <label for="birthdate">Date of Birth:</label>
-                <input type="date" id="birthdate" name="birthdate" required>
-                <input type="submit" value="Submit" class="button">
-                <input type="reset" value="Clear Form" class="button">
-</form>
-
-
+                <div class="form_backup_text">
+                    <h5><span style="color:black; text-transform: uppercase; text-decoration: underline;">Peak</span> membership includes access to gym and swim at anytime.</h6>
+                    <h5><span style="color:black; text-transform: uppercase; text-decoration: underline;">Off-Peak</span> membership includes access to gym and swim outside of 9 to 5.</h6>
+                    <h5><span style="color:black; text-transform: uppercase; text-decoration: underline;">Peak (gym only)</span> membership includes access to the gym at anytime.</h6>
+                    <h5><span style="color:black; text-transform: uppercase; text-decoration: underline;">Off-Peak (gym only)</span> membership includes access to gym outside of 9 to 5.</h6>
+                    <h5><span style="color:black; text-transform: uppercase; text-decoration: underline;">Swim</span> only is for members looking to use the pool only.</h6>
+                </div>
 
         </Div>
     </section>
