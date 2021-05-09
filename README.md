@@ -24,7 +24,7 @@ The overal story would be as follows:
 
 SiteMap
 
-![index web](documentation-assets/website_layout_wireframe.jpg)
+![index web](documentation-assets/wireframe-images/website_layout_wireframe.jpg)
 
 Mobile Wireframe
 
