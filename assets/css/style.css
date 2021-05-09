@@ -347,14 +347,14 @@ border: 2px solid white;
 }
 
 .form {
-    margin-top: 280px;
+    margin-top: 300px;
     color: #fff;
     background-color:  #D91A32;
     max-width: 400px;
     position: absolute;
     left: 10%;
     padding: 30px;
-    
+    text-align: left;
 }
 .form_backup_text {
     margin-top: 60px;
@@ -364,6 +364,7 @@ border: 2px solid white;
     position: absolute;
     right: 10%;
     padding: 30px;
+    
 
 }
 

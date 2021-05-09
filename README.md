@@ -24,7 +24,7 @@ The overal story would be as follows:
 
 SiteMap
 
-![index web](https://indigo-gopher-zdzjvzmp.ws-eu04.gitpod.io/files/download/?id=8716c400-48aa-4d19-ac41-102e6eef11da)
+![index web](documentation-assets/website_layout_wireframe.jpg)
 
 Mobile Wireframe
 
