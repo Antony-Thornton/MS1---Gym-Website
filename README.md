@@ -8,7 +8,9 @@ For more information please visit https://www.fitnessfirst.co.uk/. All content s
 The project is currently underway with a deadline of 5th June 2021.
 The index page is largly finished but needs testing.
 
-# UX
+# User Story
+The business case:
+I was asked by my local gym Fitness First to create a wesbite for their gym. They have decided, that to increase the number of members using the gym that 
 This website will be designed to give users more information about the gym known as "Fitness First". The website is aimed at users looking to join a new gym and or get information on classes that they may find interesting.
 
 Once the user has navigated the whole website they will have a better understanding of what the gym is, what it has to offer and be able to see some of its facilities. 
@@ -24,15 +26,15 @@ The overal story would be as follows:
 
 SiteMap
 
-![index web](documentation-assets/wireframe-images/website_layout_wireframe.jpg)
+![index web](documentation-assets/wireframe-images/site_map_wireframe.jpg)
 
 Mobile Wireframe
 
-![index web](https://indigo-gopher-zdzjvzmp.ws-eu04.gitpod.io/files/download/?id=85489aed-647d-49cf-b583-457c2bb08948)
+![index web](documentation-assets/wireframe-images/mobile_layout_wireframe.jpg)
 
 Website Wireframe
 
-![index web](https://indigo-gopher-zdzjvzmp.ws-eu04.gitpod.io/files/download/?id=89da6278-0f1d-43bf-a450-bc1a171665af)
+![index web](documentation-assets/wireframe-images/website_layout_wireframe.jpg)
 
 
 ## Website Objectives:
