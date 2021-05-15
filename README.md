@@ -10,7 +10,7 @@ The index page is largly finished but needs testing.
 
 # User Story
 The business case:
-I was asked by my local gym Fitness First to create a wesbite for their gym. They have decided, that to increase the number of members using the gym that 
+I was asked by my local gym Fitness First to create a wesbite for their gym. They have decided, that to increase the number of members using the gym, that they need a website with more information.
 This website will be designed to give users more information about the gym known as "Fitness First". The website is aimed at users looking to join a new gym and or get information on classes that they may find interesting.
 
 Once the user has navigated the whole website they will have a better understanding of what the gym is, what it has to offer and be able to see some of its facilities. 

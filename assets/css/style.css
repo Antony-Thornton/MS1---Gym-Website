@@ -331,6 +331,27 @@ border: 2px solid white;
     border: 1px solid white;
 }
 
+.col_map {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    float: left;
+    padding-left: 10%;
+    padding-right: 10%;
+    border: 1px solid black;
+    text-align: center;
+    background-image: ("..//assets/images/Gym_map.jpg");
+    background-size: cover;
+}
+
+#map_photo {
+    padding-right: 10%;
+    width: 100%;
+    height: 600px;
+
+}
+
+
 .col_form {
     width: 100%;
     height: 600px;
