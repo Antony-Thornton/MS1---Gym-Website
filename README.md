@@ -53,10 +53,31 @@ The overal story would be as follows:
 ### Mobile Wireframes
 
 General layout
+The general layout looks primarily at the heading/navigation secion as well as the footer. The website wireframes were desinged with a mobile first approach.
+The idea behind this was so that when the screen size expands the elements will shift accordingly left and right as if being stretched.
+
+Header
+
+From top down the header will have; an advert link at the very top directing the user to join,
+a division with the logo with a text below indicating the current page, it will then have a hero image that has a floating text based navigation box to the right and a floating text based box to the left with some placeholder text that helps the user understand the page.
+
+Footer 
+
+The footer will include a disclaimer explaining the webpage is based on a project for the code institute course. It will then have links to official Fitness First sources.
+
+Main Body of text
+
+The main body of text will be expanded in further wireframes due to the need for specificity.
+
+
 
 ![index web](documentation-assets/wireframe-images/mobile_layout_wireframe.jpg)
 
 Home Page layout
+
+The home page main body will consist of; generic gym picture with a floating text box that shows the 4 classes that the gym has available; spinning, yoga, boxing and aquafit.
+The text will be a mixture of HTML elements, namely P and H1-H6. Below this will be a number of pictures of current gym users. At the very bottom will be a picture, created in canva
+showing the current membership options and linking to the join us page.
 
 
 ![index web](documentation-assets/wireframe-images/home_mobile_part1.jpg)
@@ -65,6 +86,8 @@ Home Page layout
 
 Classes Page layout
 
+The classes page main body will be broken into 4 sections. One for each class. Within each section will be a header for the class in question, a description of the class and a HTML table 
+of days and times. Each section will look the same and will be under each other on a mobile device and inline on a webpage.
 
 ![index web](documentation-assets/wireframe-images/classes_mobile_part1.jpg)
 
@@ -72,6 +95,7 @@ Classes Page layout
 
 Gallery Page Layout 
 
+The gallery page will include 4 images of the gym facilities. It is designed to show case the gym facilities themselves.
 
 ![index web](documentation-assets/wireframe-images/gallery_mobile_part1.jpg)
 
@@ -79,6 +103,9 @@ Gallery Page Layout
 
 Join Us Page Layout
 
+The Join us page will include a section that includes an image of google maps allowing the user to see where the gym is located. It also includes a link to the 
+google maps page the screenshot came from to allow the user to navigate from wherever they are based. Below this will be a section that includes all the membership options
+and prices. Another floating text box below this will show a join us form with information required to join.
 
 ![index web](documentation-assets/wireframe-images/join_us_mobile.jpg)
 
