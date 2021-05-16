@@ -53,6 +53,7 @@ The overal story would be as follows:
 ### Mobile Wireframes
 
 General layout
+
 The general layout looks primarily at the heading/navigation secion as well as the footer. The website wireframes were desinged with a mobile first approach.
 The idea behind this was so that when the screen size expands the elements will shift accordingly left and right as if being stretched.
 
