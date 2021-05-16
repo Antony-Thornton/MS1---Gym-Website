@@ -253,6 +253,8 @@ More practice projects and pushing the boundaries will help massively. Gaining e
 
 Need to plan the layout and content first. Not necessarily the "design" but what I actually want to do at a high level. See https://creately.com/blog/diagrams/website-planning-guide/
 
+Need to push changes more frequently and appropriately. I.e when i make a small change to something like the height of an existing element.
+
 ## 7.2 Future study points
 Need to revisit the media screen size lesson. I understand the concept but not the application.
 
