@@ -3,7 +3,6 @@
     color: white;
     margin: 0;
     padding: 0;
-    
 }
 
 /*D91A32 default red */
@@ -75,8 +74,6 @@ html {
     width: 100%;
     background: url("https://www.fitnessfirstjersey.com/wp-content/uploads/2018/08/07.29-Fintess-First_0022_0055.jpg") no-repeat center center;
     background-size: cover;
-  
-
 }
 
 
@@ -172,7 +169,7 @@ html {
     background-color: black;
 }
 
-/* ********* Main column content Home Page ********* */
+/* ********* Main body Page ********* */
 
 .col_format1 {
 
@@ -294,16 +291,20 @@ html {
 
 /* ********* Main column content Classes Page ********* */
 
+.container {
+    width: 100%;
+    padding: 0;
+}
+
 .col {
     width: 25%;
-    height: 300px;
+    height: 600px;
     background-color: #D91A32;
-    float: left;
     padding-left: 10%;
     padding-right: 10%;
     border: 1px solid black;
     text-align: center;
-    display: inline;
+    display: inline-flex;
 
 }
 
@@ -343,8 +344,11 @@ border: 2px solid white;
 }
 
 #google_map {
+    padding-right: 10%;
+    padding-left: 10%;
     border: 0;
     height: 100%;
+    width: 100%;
 }
 
 
@@ -497,9 +501,32 @@ footer div h1 {
 
 
 
-@media only screen and (Min-width: 375px) {
+@media only screen and (max-width: 490px) {
 #google_map {
     width: 100%;
+}
+
+.col {
+    width: 100%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 1px;
+    text-align: center;
+    height: auto;
+
+}
+.col h3 {
+    width: 100%;
+}
+
+.footer_div {
+    width: 100%;
+   padding-left: 10%;
+   padding-right: 10%;
+    text-align: center; 
+    font-size: .75rem;
+    text-transform: uppercase;
+    background-color: black;
 }
 
 
