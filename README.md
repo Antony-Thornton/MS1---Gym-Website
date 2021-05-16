@@ -138,6 +138,7 @@ https://www.pexels.com/
 
 https://fontawesome.com/
 
+https://www.canva.com/en_gb/ - Self created membership option picture
 
 
 
