@@ -46,17 +46,78 @@ The overal story would be as follows:
 
 ## 2.2 Wireframes
 
-SiteMap
+### SiteMap
 
 ![index web](documentation-assets/wireframe-images/site_map_wireframe.jpg)
 
-Mobile Wireframe
+### Mobile Wireframes
+
+General layout
 
 ![index web](documentation-assets/wireframe-images/mobile_layout_wireframe.jpg)
 
-Website Wireframe
+Home Page layout
+
+
+![index web](documentation-assets/wireframe-images/home_mobile_part1.jpg)
+
+![index web](documentation-assets/wireframe-images/home_mobile_part2.jpg)
+
+Classes Page layout
+
+
+![index web](documentation-assets/wireframe-images/classes_mobile_part1.jpg)
+
+![index web](documentation-assets/wireframe-images/classes_mobile_part2.jpg)
+
+Gallery Page Layout 
+
+
+![index web](documentation-assets/wireframe-images/gallery_mobile_part1.jpg)
+
+![index web](documentation-assets/wireframe-images/gallery_mobile_part2.jpg)
+
+Join Us Page Layout
+
+
+![index web](documentation-assets/wireframe-images/join_us_mobile.jpg)
+
+### Website Wireframe
+
+General Layout
 
 ![index web](documentation-assets/wireframe-images/website_layout_wireframe.jpg)
+Home Page layout
+
+
+![index web](documentation-assets/wireframe-images/home_website_part1.jpg)
+
+![index web](documentation-assets/wireframe-images/home_website_part2.jpg)
+
+![index web](documentation-assets/wireframe-images/home_website_part3.jpg)
+
+Classes Page layout
+
+
+![index web](documentation-assets/wireframe-images/classes_website_part1.jpg)
+
+![index web](documentation-assets/wireframe-images/classes_website_part2.jpg)
+
+Gallery Page Layout 
+
+
+![index web](documentation-assets/wireframe-images/gallery_website_part1.jpg)
+
+![index web](documentation-assets/wireframe-images/gallery_website_part2.jpg)
+
+![index web](documentation-assets/wireframe-images/gallery_website_part3.jpg)
+
+Join Us Page Layout
+
+
+![index web](documentation-assets/wireframe-images/join_us_website_part1.jpg)
+
+![index web](documentation-assets/wireframe-images/join_us_website_part2.jpg)
 
 
 ## 2.3 Website Objectives:
