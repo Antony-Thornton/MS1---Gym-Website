@@ -344,7 +344,7 @@ border: 2px solid white;
 
 #google_map {
     border: 0;
-    margin-top: 75px;
+    height: 100%;
 }
 
 
@@ -500,7 +500,7 @@ footer div h1 {
 @media only screen and (Min-width: 375px) {
 #google_map {
     width: 100%;
-    
 }
+
 
 }
