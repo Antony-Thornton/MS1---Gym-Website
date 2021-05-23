@@ -12,15 +12,16 @@
 
 #header_advert {
     height: auto;
-    font-size: .75rem;
+    font-size: 1.5rem;
     background-color: Black;
     padding-left: 10%;
     padding-right: 10%;
-    text-align: right;
+    text-align: center;
 }
 #header_advert:hover {
     background-color: #D91A32;
-    color: Black;
+    color: black;
+    font-size: 5.0rem;
 }
 
 #header_bar {
@@ -120,7 +121,6 @@ html {
     height: 150px;
 
     padding-top: 40px;
-    padding-left: 10px;
 
     background-color:black;
     
@@ -170,6 +170,8 @@ html {
 }
 
 /* ********* Main body Page ********* */
+
+
 
 .col_format1 {
 
@@ -298,7 +300,7 @@ html {
 
 .col {
     width: 25%;
-    height: 600px;
+    height: auto;
     background-color: #D91A32;
     padding-left: 10%;
     padding-right: 10%;
@@ -386,10 +388,15 @@ border: 2px solid white;
     position: absolute;
     right: 10%;
     padding: 30px;
-    
-
 }
 
+#form_boxes {
+    padding: 1px;
+}
+
+#form_button {
+    padding: 5px;
+}
 
 .custom_select {
     color: black;
@@ -461,17 +468,15 @@ border: 2px solid white;
 
 
 .footer_div {
-   padding-left: 10%;
-   padding-right: 10%;
     text-align: center; 
-    font-size: .75rem;
+    font-size: 1.0rem;
     text-transform: uppercase;
     background-color: black;
 }
 
 .footer_p_format {
     text-align: center; 
-    font-size: .5rem;
+    font-size: 1.0rem;
     text-transform: none;
 }
 
@@ -508,12 +513,10 @@ footer div h1 {
 
 .col {
     width: 100%;
-    padding-right: 10%;
-    padding-left: 10%;
     padding-bottom: 1px;
     text-align: center;
     height: auto;
-
+    padding: 0;
 }
 .col h3 {
     width: 100%;
@@ -521,13 +524,10 @@ footer div h1 {
 
 .footer_div {
     width: 100%;
-   padding-left: 10%;
-   padding-right: 10%;
     text-align: center; 
-    font-size: .75rem;
+    font-size: 1.0rem;
     text-transform: uppercase;
     background-color: black;
 }
-
 
 }

@@ -193,7 +193,7 @@ Balsamiq Wireframes - https://balsamiq.com/wireframes/
 
 
 # 4. Testing
-## 4.1 Informal
+## 4.1 Informal Development Testing
 Informal testing is and was conducted throughout the build. 
 
 My method of testing is based on trial and error, something that I learnt through my time with VBA for MSOffice. I would write a line of code and check the outcome. Mostly working step by step.
@@ -207,11 +207,30 @@ The informal process of testing is as follows:
 * If outcome is successful then wider checks on other code are conducted. For example, what impact does it have on other elements.
 * If outcome is unsuccessful then the line/lines of code written will be checked and informal testing repeated.
 
-## 4.2 Formal
+Further testing including sending the website link to my partner who navigated the website on both her phone and tablet. This was useful as it flagged an
+issue where pictures were not appearing on the home page.
+
+## 4.2 Formal Deployment Testing
+Need to be explicit.
+Testing individual buttons/links etc
+
 To be conducted at the end of the creation phase. This will involve using websites to check formatting etc. This will then prompt the bug/format fixes.
 
 # 5. Deployment
-To be confirmed
+The website will be deployed using GitHubs built in pages manager.
+
+Step 1 - Log in to GitHub page
+
+Step 2 - Navigate to project and click settings
+
+Step 3 - In the bar on the left click pages
+
+Step 4 - Under the source dropdown select main and click save
+
+A link should appear above the source dropdown and look something like this
+
+Your site is ready to be published at https://antony-thornton.github.io/MS1---Gym-Website/
+
 
 # 6. Credits
 ## Content
