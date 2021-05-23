@@ -239,8 +239,6 @@ Social Media Links - The links should correctly navigate to the official pages.
 
 Other - There are no other functions on this page that need to be tested.
 
-
-
 ### Classes Page
 
 Links - The links should all navigate correctly to the expected web pages.
@@ -253,7 +251,8 @@ Text - The text should be clearly visible on each of the pages.
 
 Social Media Links - The links should correctly navigate to the official pages.
 
-Other - There are no other functions on this page that need to be tested.
+Tables - The tables should all line up correctly in a 2x2 grid then drop to 1x4 below each other on small devices.
+
 
 ### Gallery Page
 
