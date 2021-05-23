@@ -16,6 +16,9 @@
 ## 4. Testing
 * 4.1 Informal
 * 4.2 Formal
+    - 4.2.1 External website testing
+    - 4.2.2 Functionality Testing
+    - 4.2.3 Device Testing
 ## 5. Deployment
 ## 6. Credits
 * 6.1 Content
@@ -115,8 +118,8 @@ and prices. Another floating text box below this will show a join us form with i
 General Layout
 
 ![index web](documentation-assets/wireframe-images/website_layout_wireframe.jpg)
-Home Page layout
 
+Home Page layout
 
 ![index web](documentation-assets/wireframe-images/home_website_part1.jpg)
 
@@ -185,7 +188,7 @@ n/a
 ## 3.3 Technologies Used
 HTML 5 - https://html.com/html5/
 
-CSS - https://en.wikipedia.org/wiki/CSS
+CSS3 - https://en.wikipedia.org/wiki/CSS
 
 Bootstrap v5 (used as reference) - https://getbootstrap.com/docs/5.0/getting-started/introduction/
 
@@ -211,10 +214,85 @@ Further testing including sending the website link to my partner who navigated t
 issue where pictures were not appearing on the home page.
 
 ## 4.2 Formal Deployment Testing
-Need to be explicit.
-Testing individual buttons/links etc
+### 4.2.1 External website testing
 
-To be conducted at the end of the creation phase. This will involve using websites to check formatting etc. This will then prompt the bug/format fixes.
+In order to ensure that my code is correct i used the following website to flag issues with my code.
+
+
+https://validator.w3.org/ - HTML validator. Looks specifically for errors in my HTML code.
+
+https://jigsaw.w3.org/css-validator/ - CSS validator. Looks specifically for errors in my CSS code.
+
+### 4.2.2 Functionality Testing
+
+### Home Page
+
+Links - The links should all navigate correctly to the expected web pages.
+
+Pictures - The pictures should load and not be blurry or stretched.
+
+Sizing - Using google developer the webpage should dynamically stretch using the slider.
+
+Text - The text should be clearly visible on each of the pages.
+
+Social Media Links - The links should correctly navigate to the official pages.
+
+Other - There are no other functions on this page that need to be tested.
+
+
+
+### Classes Page
+
+Links - The links should all navigate correctly to the expected web pages.
+
+Pictures - The pictures should load and not be blurry or stretched.
+
+Sizing - Using google developer the webpage should dynamically stretch using the slider.
+
+Text - The text should be clearly visible on each of the pages.
+
+Social Media Links - The links should correctly navigate to the official pages.
+
+Other - There are no other functions on this page that need to be tested.
+
+### Gallery Page
+
+Links - The links should all navigate correctly to the expected web pages.
+
+Pictures - The pictures should load and not be blurry or stretched.
+
+Sizing - Using google developer the webpage should dynamically stretch using the slider.
+
+Text - The text should be clearly visible on each of the pages.
+
+Social Media Links - The links should correctly navigate to the official pages.
+
+Other - There are no other functions on this page that need to be tested.
+
+### Join Us Page
+
+Links - The links should all navigate correctly to the expected web pages.
+
+Pictures - The pictures should load and not be blurry or stretched.
+
+Sizing - Using google developer the webpage should dynamically stretch using the slider.
+
+Text - The text should be clearly visible on each of the pages.
+
+Social Media Links - The links should correctly navigate to the official pages.
+
+Form - The form should work correctly, it should change cover on hover and be completed before submission is allowed.
+
+Google map - The google map shout load 
+
+### 4.2.3 Device Testing
+
+The website was tested on the following devices:
+
+* Windows 10 Laptop
+* Samsung Galaxy 10+ mobile phone
+* Iphone 12Pro
+* Ipad Mini (unknown make)
 
 # 5. Deployment
 The website will be deployed using GitHubs built in pages manager.
