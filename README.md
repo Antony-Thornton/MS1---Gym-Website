@@ -231,7 +231,8 @@ HTML Validator 1st round results
 
 Errors per page:
 
-* Index -
+* Index - 3 errors
+    - 1. Attribute no-repeat not allowed on element img at this point. 2. Attribute center not allowed on element img at this point. 3. Bad value ./assets/images/Membership Options.png for attribute src on element img: Illegal character in path segment: space is not allowed.
 * Classes -
 * Gallery -
 * Join -
