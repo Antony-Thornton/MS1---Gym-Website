@@ -270,6 +270,18 @@ Errors in code:
     - Error 3 removed css line
 
 
+HTML Validator 2nd round results
+
+* Index - 0 Errors found. Document checking completed. No errors or warnings to show.
+* Classes - 0 Errors found. Document checking completed. No errors or warnings to show.
+* Gallery - 1 warning found. See round 1 notes.
+* Join - 8 errors found
+    - 1. Bad value   for attribute selected on element option. 2. Element option without attribute label must not be empty. 3. Element a not allowed as child of element ul in this context. (Suppressing further errors from this subtree.) 4. Element a not allowed as child of element ul in this context. (Suppressing further errors from this subtree.) 5. Element a not allowed as child of element ul in this context. (Suppressing further errors from this subtree.) 6. Element a not allowed as child of element ul in this context. (Suppressing further errors from this subtree.) 7.  Stray end tag a. 8. The value of the for attribute of the label element must be the ID of a non-hidden form control. 
+
+* Join - Error notes:
+    - Error 1 and 2. Added <option disabled selected value> -- select an option -- </option> courtesy of https://stackoverflow.com/questions/8605516/default-select-option-as-blank
+    - Error 8 changed <select class="custom_select" required=""> to <select id="custom_select" required="">. Check in round 3.
+    - Error 3 through 6 looks to be a copy and paste duplication. Check in round 3.
 
 ### 4.2.2 Functionality Testing
 
