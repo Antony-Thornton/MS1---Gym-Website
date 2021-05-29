@@ -318,6 +318,8 @@ The website was tested on the following devices:
 
 ### 4.2.4 Spelling and Grammar
 
+I have included a specific section for spelling and grammar. My dyslexia makes this part particularly troublesome. In order to ensure that my spelling is correct I have taken each page and put it into word to spell check. I then manually correct the page in GitPod.
+
 # 5. Deployment
 The website will be deployed using GitHubs built in pages manager.
 
