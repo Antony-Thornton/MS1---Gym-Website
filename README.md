@@ -283,6 +283,10 @@ HTML Validator 2nd round results
     - Error 8 changed <select class="custom_select" required=""> to <select id="custom_select" required="">. Check in round 3.
     - Error 3 through 6 looks to be a copy and paste duplication. Check in round 3.
 
+CSS Validator 2nd round results
+* CSS - 0 errors found on home page. 0 errors found on classes page. 0 errors found on gallery page. 0 errors found on join page. 
+
+
 ### 4.2.2 Functionality Testing
 
 ### Home Page
