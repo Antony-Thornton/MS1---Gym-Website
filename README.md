@@ -233,9 +233,12 @@ Errors per page:
 
 * Index - 3 errors
     - 1. Attribute no-repeat not allowed on element img at this point. 2. Attribute center not allowed on element img at this point. 3. Bad value ./assets/images/Membership Options.png for attribute src on element img: Illegal character in path segment: space is not allowed.
-* Classes -
-* Gallery -
-* Join -
+* Classes - 0 errors
+    - Document checking completed. No errors or warnings to show.
+* Gallery - 8 errors 1 warning. Error 9 (warning) ignored as a heading isnt needed in this example.
+    - 1. Attribute no-repeat not allowed on element img at this point. 2. Attribute center not allowed on element img at this point. 3. Attribute no-repeat not allowed on element img at this point. 4. Attribute center not allowed on element img at this point. 5. Attribute no-repeat not allowed on element img at this point.  6. Attribute center not allowed on element img at this point. 7. Attribute no-repeat not allowed on element img at this point. 8. Attribute center not allowed on element img at this point. 9. Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections. 
+
+* Join - 
 
 CSS Validator 1st round results
 
