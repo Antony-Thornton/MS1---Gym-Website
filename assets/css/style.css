@@ -17,11 +17,12 @@
     padding-left: 10%;
     padding-right: 10%;
     text-align: center;
+    transition: font-size 1s; /* Marcel expanded on my idea to make the size bigger. Was not aware you could scale through transition. */
 }
 #header_advert:hover {
     background-color: #D91A32;
     color: black;
-    font-size: 5.0rem;
+    font-size: 3.0rem;
 }
 
 #header_bar {
@@ -174,17 +175,15 @@ html {
 
 
 .col_format1 {
-
-    height: 1000px;
+    height: 900px;
     width: 100%;
     background-color: white;
 
 }
 .col_format1 img{
-    height: 1000px;
+    height: 900px;
     width: 100%;
     background-size: cover;
-
 }
 
 .class_box {
@@ -241,18 +240,38 @@ html {
     font-size: 1rem;
 }
 
+/* Styled two photos one for mobile and another for desktop / tablet */
+@media only screen and (max-width: 490px) {
+    #class_photo_1 {
+        display: none;
+    }
+    #class_photo_2 {
+        display: block; 
+    }
+}
+
+@media only screen and (min-width: 490px) {
+    #class_photo_1 {
+        display: block;
+    }
+    #class_photo_2 {
+        display: none; 
+    }
+}
 
 
 .col_format2 {
     height: auto;
     width: 100%;
-    background-color: white;
-    color: black;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 0;
  
 }
 
 .col_format3 {
+    padding-top: 4px; 
+    padding-bottom: 2px;
     height: auto;
     width: 100%;
     color: white;
@@ -293,26 +312,56 @@ html {
 
 /* ********* Main column content Classes Page ********* */
 
-.container {
-    width: 100%;
-    padding: 0;
+/* Thank you to Marcel for helping me fix the media size issue. It looks much better!
+/* [COMMENT] Used media queries to fix this */
+@media only screen and (max-width: 490px) {
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+    }
+    
+    .col {
+        background-color: #D91A32;
+        border: 1px solid black;
+        text-align: center;
+        margin-top: 10px;
+        height: 275px;
+        display: inline-flex;
+    }
 }
 
-.col {
-    width: 25%;
-    height: auto;
-    background-color: #D91A32;
-    padding-left: 10%;
-    padding-right: 10%;
-    border: 1px solid black;
-    text-align: center;
-    display: inline-flex;
-
+/* [COMMENT - AT] Changed from 490px to 1080px */
+@media only screen and (min-width: 1080px) {
+    .container {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1200px;
+    }
+    
+    .col {
+        width: 25%;
+        height: 350px;
+        background-color: #D91A32;
+        padding-left: 10%;
+        padding-right: 10%;
+        border: 1px solid black;
+        text-align: center;
+        display: inline-flex;
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
 }
+
+
 
 .col h3 {
     background-color: black;
-    
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 100%;
 }
 
 .col div p {
@@ -346,8 +395,8 @@ border: 2px solid white;
 }
 
 #google_map {
-    padding-right: 10%;
-    padding-left: 10%;
+    /* padding-right: 10%;
+    padding-left: 10%; [COMMENT] REMOVED THIS */ 
     border: 0;
     height: 100%;
     width: 100%;
@@ -468,16 +517,23 @@ border: 2px solid white;
 
 
 .footer_div {
+    padding-top: 20px;;
     text-align: center; 
     font-size: 1.0rem;
     text-transform: uppercase;
-    background-color: black;
+    background-color: rgb(0, 0, 0); 
 }
 
 .footer_p_format {
     text-align: center; 
     font-size: 1.0rem;
     text-transform: none;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 footer div h1 {
@@ -508,17 +564,6 @@ footer div h1 {
 
 @media only screen and (max-width: 490px) {
 #google_map {
-    width: 100%;
-}
-
-.col {
-    width: 100%;
-    padding-bottom: 1px;
-    text-align: center;
-    height: auto;
-    padding: 0;
-}
-.col h3 {
     width: 100%;
 }
 
