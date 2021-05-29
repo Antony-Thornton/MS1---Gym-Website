@@ -287,6 +287,18 @@ CSS Validator 2nd round results
 * CSS - 0 errors found on home page. 0 errors found on classes page. 0 errors found on gallery page. 0 errors found on join page. 
 
 
+HTML Validator 3rd round results
+
+* Index - 0 Errors found. Document checking completed. No errors or warnings to show.
+* Classes - 0 Errors found. Document checking completed. No errors or warnings to show.
+* Gallery - 1 warning found. See round 1 notes.
+* Join - 0 errors found
+
+CSS Validator 3rd round results
+* CSS - 0 errors found on home page. 0 errors found on classes page. 0 errors found on gallery page. 0 errors found on join page. 
+
+
+
 ### 4.2.2 Functionality Testing
 
 ### Home Page
@@ -303,50 +315,6 @@ Social Media Links - The links should correctly navigate to the official pages.
 
 Other - There are no other functions on this page that need to be tested.
 
-### Classes Page
-
-Links - The links should all navigate correctly to the expected web pages.
-
-Pictures - The pictures should load and not be blurry or stretched.
-
-Sizing - Using google developer the webpage should dynamically stretch using the slider.
-
-Text - The text should be clearly visible on each of the pages.
-
-Social Media Links - The links should correctly navigate to the official pages.
-
-Tables - The tables should all line up correctly in a 2x2 grid then drop to 1x4 below each other on small devices.
-
-
-### Gallery Page
-
-Links - The links should all navigate correctly to the expected web pages.
-
-Pictures - The pictures should load and not be blurry or stretched.
-
-Sizing - Using google developer the webpage should dynamically stretch using the slider.
-
-Text - The text should be clearly visible on each of the pages.
-
-Social Media Links - The links should correctly navigate to the official pages.
-
-Other - There are no other functions on this page that need to be tested.
-
-### Join Us Page
-
-Links - The links should all navigate correctly to the expected web pages.
-
-Pictures - The pictures should load and not be blurry or stretched.
-
-Sizing - Using google developer the webpage should dynamically stretch using the slider.
-
-Text - The text should be clearly visible on each of the pages.
-
-Social Media Links - The links should correctly navigate to the official pages.
-
-Form - The form should work correctly, it should change cover on hover and be completed before submission is allowed.
-
-Google map - The google map shout load 
 
 ### 4.2.3 Device Testing
 
@@ -357,9 +325,15 @@ The website was tested on the following devices:
 * Iphone 12Pro
 * Ipad Mini (unknown make)
 
-### 4.2.4 Spelling and Grammar
+### 4.2.4 Spelling
 
-I have included a specific section for spelling and grammar. My dyslexia makes this part particularly troublesome. In order to ensure that my spelling is correct I have taken each page and put it into word to spell check. I then manually correct the page in GitPod.
+I have included a specific section for spelling. My dyslexia makes this part particularly troublesome. In order to ensure that my spelling is correct I have taken each page and put it into word to spell check. I then manually correct the page in GitPod.
+
+### 4.2.5 User testing and feedback
+
+As part of the testing process i asked a friend and my partner to navigate the website and test the links and provide general feedback.
+* Issue flagged with home page pictures not showing. 
+* Form only submitting Email and Date of birth
 
 # 5. Deployment
 The website will be deployed using GitHubs built in pages manager.

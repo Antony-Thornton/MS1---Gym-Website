@@ -316,8 +316,7 @@ html {
 
 /* ********* Main column content Classes Page ********* */
 
-/* Thank you to Marcel for helping me fix the media size issue. It looks much better!
-/* [COMMENT] Used media queries to fix this */
+/* Thank you to Marcel for helping me fix the media size issue. It looks much better!*/
 @media only screen and (max-width: 490px) {
     .container {
         margin-left: auto;
@@ -331,12 +330,11 @@ html {
         text-align: center;
         margin-top: 10px;
         height: 275px;
-        display: inline-flex;
+        
     }
 }
 
-/* [COMMENT - AT] Changed from 490px to 1080px */
-@media only screen and (min-width: 1080px) {
+@media only screen and (min-width: 490px) {
     .container {
         width: 100%;
         margin-left: auto;
