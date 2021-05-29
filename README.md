@@ -260,18 +260,15 @@ CSS Validator 1st round results
 
 Initially uploaded as a text file that showed no errors so used the page method as well. Need to understand why it showed no errors.
 
-Errors per page:
+Errors in code:
 
-* Index - 3 errors found
+* CSS - 3 errors found
     - 1. Unknown error java.lang.Exception: https://antony-thornton.github.io/MS1---Gym-Website/bootstrap.min.css: Not Found. 2. .table_format Too many values or values are not recognized : collapse white. 3. .contact_us Value Error : float center is not a float value : center. 
-* Index - Error notes
+* CSS - Error notes
     - Error 1 Bootstrap link removed from HTML pages
     - Error 2 removed css line
     - Error 3 removed css line
 
-* Classes -
-* Gallery -
-* Join -
 
 
 ### 4.2.2 Functionality Testing
