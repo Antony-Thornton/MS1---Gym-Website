@@ -423,13 +423,13 @@ border: 2px solid white;
 
 
 .form {
-    margin-top: 270px;
+    margin-top: 258px;
     color: #fff;
     background-color:  #D91A32;
     max-width: 400px;
     position: absolute;
     left: 10%;
-    padding: 30px;
+    padding: 20px;
     text-align: left;
     border-radius: 25px;
 }
@@ -479,7 +479,7 @@ border: 2px solid white;
 .custom_select option {
     background-color: black;
     color: black;
-
+    width: 13px;
 }
 
 select {
@@ -519,14 +519,22 @@ option::selection {
 
 #firstname {
     color: black;
+    width: 211px;
 }
 
 #secondname {
     color: black;
+    width: 222px;
 }
 
 #birthdate {
     color: black;
+    width: 198px;
+}
+
+#email {
+    color: black;
+    width: 183px;
 }
 
 #email:hover  {
@@ -547,10 +555,7 @@ option::selection {
     background-color: black;
     color: white;
 }
-#email:hover {
-    background-color: black;
-    color: white;
-}
+
 
 #birthdate:hover {
     background-color: black;
