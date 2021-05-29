@@ -241,7 +241,7 @@ html {
 }
 
 /* Styled two photos one for mobile and another for desktop / tablet */
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 600px) {
     #class_photo_1 {
         display: none;
     }
@@ -253,7 +253,7 @@ html {
     }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 600px) {
     #class_photo_1 {
         display: block;
     }
