@@ -415,12 +415,12 @@ border: 2px solid white;
     text-align: center;
     background: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallsdesk.com%2Fwp-content%2Fuploads%2F2016%2F10%2FGym-Desktop.jpg&f=1&nofb=1") no-repeat center center;
     background-size: cover;
-  
-
 }
 
+
+
 .form {
-    margin-top: 300px;
+    margin-top: 270px;
     color: #fff;
     background-color:  #D91A32;
     max-width: 400px;
@@ -430,7 +430,7 @@ border: 2px solid white;
     text-align: left;
 }
 .form_backup_text {
-    margin-top: 60px;
+    margin-top: 20px;
     color: #fff;
     background-color: #D91A32;
     max-width: 400px;
@@ -438,6 +438,25 @@ border: 2px solid white;
     right: 10%;
     padding: 30px;
 }
+
+.col_contact {
+    width: 100%;
+    height: 100px;
+    background-color: Black;
+    float: left;
+    border: 1px solid black;
+    text-align: center;
+    background-size: cover;
+}
+.contact_us {
+    color: white;
+    background-color:  #D91A32;
+    width: 100%;
+    position: absolute;
+    float: center;
+    text-align: Center;
+}
+
 
 #form_boxes {
     padding: 1px;

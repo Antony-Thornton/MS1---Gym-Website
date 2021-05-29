@@ -17,6 +17,7 @@
 * 4.1 Informal
 * 4.2 Formal
     - 4.2.1 External website testing
+     + 4.2.1.1 Testing Results
     - 4.2.2 Functionality Testing
     - 4.2.3 Device Testing
 ## 5. Deployment
@@ -223,6 +224,27 @@ https://validator.w3.org/ - HTML validator. Looks specifically for errors in my 
 
 https://jigsaw.w3.org/css-validator/ - CSS validator. Looks specifically for errors in my CSS code.
 
+### 4.2.1.1 Testing Results
+
+HTML Validator 1st round results
+
+Errors per page:
+
+* Index -
+* Classes -
+* Gallery -
+* Join -
+
+CSS Validator 1st round results
+
+Errors per page:
+
+* Index -
+* Classes -
+* Gallery -
+* Join -
+
+
 ### 4.2.2 Functionality Testing
 
 ### Home Page
@@ -292,6 +314,8 @@ The website was tested on the following devices:
 * Samsung Galaxy 10+ mobile phone
 * Iphone 12Pro
 * Ipad Mini (unknown make)
+
+
 
 # 5. Deployment
 The website will be deployed using GitHubs built in pages manager.
