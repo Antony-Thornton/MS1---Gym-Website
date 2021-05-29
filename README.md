@@ -20,6 +20,7 @@
      + 4.2.1.1 Testing Results
     - 4.2.2 Functionality Testing
     - 4.2.3 Device Testing
+    - 4.2.4 Spelling and Grammar
 ## 5. Deployment
 ## 6. Credits
 * 6.1 Content
@@ -315,7 +316,7 @@ The website was tested on the following devices:
 * Iphone 12Pro
 * Ipad Mini (unknown make)
 
-
+### 4.2.4 Spelling and Grammar
 
 # 5. Deployment
 The website will be deployed using GitHubs built in pages manager.

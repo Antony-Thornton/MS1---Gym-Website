@@ -248,6 +248,9 @@ html {
     #class_photo_2 {
         display: block; 
     }
+    .col_format1 {
+        background-color: #D91A32;
+    }
 }
 
 @media only screen and (min-width: 490px) {
@@ -258,6 +261,7 @@ html {
         display: none; 
     }
 }
+
 
 
 .col_format2 {
