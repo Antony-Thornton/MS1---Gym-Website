@@ -471,12 +471,49 @@ border: 2px solid white;
 }
 
 .custom_select {
+    background-color: black;
     color: black;
 }
 
 .custom_select option {
+    background-color: black;
     color: black;
 
+}
+
+select {
+  background: white;
+  color: black;
+}
+
+select option::selection {
+    background: white;
+    color: black;
+}
+
+select option[value="1"] {
+  background: Black;
+}
+
+select option[value="2"] {
+  background: Black;
+}
+
+select option[value="3"] {
+  background: Black;
+}
+
+select option[value="4"] {
+  background: Black;
+}
+
+select option[value="5"] {
+  background: Black;
+}
+
+option::selection {
+    background: white;
+    color: black;
 }
 
 #firstname {
@@ -526,6 +563,7 @@ border: 2px solid white;
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  box-shadow: 1px 1px white;
 }
 .button:hover {
  background-color: white; /* Green */
@@ -533,6 +571,7 @@ border: 2px solid white;
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  box-shadow: 1px 1px black;
 }
 
 
