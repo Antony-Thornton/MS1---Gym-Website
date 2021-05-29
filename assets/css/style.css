@@ -415,6 +415,7 @@ border: 2px solid white;
     text-align: center;
     background: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallsdesk.com%2Fwp-content%2Fuploads%2F2016%2F10%2FGym-Desktop.jpg&f=1&nofb=1") no-repeat center center;
     background-size: cover;
+    
 }
 
 
@@ -428,7 +429,9 @@ border: 2px solid white;
     left: 10%;
     padding: 30px;
     text-align: left;
+    border-radius: 25px;
 }
+
 .form_backup_text {
     margin-top: 20px;
     color: #fff;
@@ -455,6 +458,7 @@ border: 2px solid white;
     position: absolute;
     float: center;
     text-align: Center;
+    
 }
 
 
