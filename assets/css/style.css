@@ -241,7 +241,7 @@ html {
 }
 
 /* Styled two photos one for mobile and another for desktop / tablet */
-@media only screen and (max-width: 490px) {
+@media only screen and (max-width: 1200px) {
     #class_photo_1 {
         display: none;
     }
@@ -253,7 +253,7 @@ html {
     }
 }
 
-@media only screen and (min-width: 490px) {
+@media only screen and (min-width: 1200px) {
     #class_photo_1 {
         display: block;
     }
@@ -317,7 +317,7 @@ html {
 /* ********* Main column content Classes Page ********* */
 
 /* Thank you to Marcel for helping me fix the media size issue. It looks much better!*/
-@media only screen and (max-width: 490px) {
+@media only screen and (max-width: 1200px) {
     .container {
         margin-left: auto;
         margin-right: auto;
@@ -334,7 +334,7 @@ html {
     }
 }
 
-@media only screen and (min-width: 490px) {
+@media only screen and (min-width: 1200px) {
     .container {
         width: 100%;
         margin-left: auto;
