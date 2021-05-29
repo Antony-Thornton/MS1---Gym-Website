@@ -233,12 +233,28 @@ Errors per page:
 
 * Index - 3 errors
     - 1. Attribute no-repeat not allowed on element img at this point. 2. Attribute center not allowed on element img at this point. 3. Bad value ./assets/images/Membership Options.png for attribute src on element img: Illegal character in path segment: space is not allowed.
+
+* Index  - Error Notes:
+    - Error 3 changed file name of membership options.
+
 * Classes - 0 errors
     - Document checking completed. No errors or warnings to show.
-* Gallery - 8 errors 1 warning. Error 9 (warning) ignored as a heading isnt needed in this example.
+* Gallery - 8 errors 1 warning. 
     - 1. Attribute no-repeat not allowed on element img at this point. 2. Attribute center not allowed on element img at this point. 3. Attribute no-repeat not allowed on element img at this point. 4. Attribute center not allowed on element img at this point. 5. Attribute no-repeat not allowed on element img at this point.  6. Attribute center not allowed on element img at this point. 7. Attribute no-repeat not allowed on element img at this point. 8. Attribute center not allowed on element img at this point. 9. Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections. 
 
-* Join - 
+* Gallery - Error Notes:
+    - Error 9 (warning) ignored as a heading isnt needed in this example.
+
+* Join - 16 errors 3 warnings
+    - 1. Bad value 600px for attribute width on element iframe: Expected a digit but saw p instead. 2. Element option without attribute label must not be empty. 3. Bad value name for attribute type on element input. 4.  Attribute placeholder is only allowed when the input type is email, number, password, search, tel, text, or url. 5. Attribute required is only allowed when the input type is checkbox, date, datetime-local, email, file, month, number, password, radio, search, tel, text, time, url, or week. 6. Duplicate ID form_boxes. 7. The first occurrence of ID form_boxes was here. 8. Bad value name for attribute type on element input. 9. Attribute placeholder is only allowed when the input type is email, number, password, search, tel, text, or url. 10. Attribute required is only allowed when the input type is checkbox, date, datetime-local, email, file, month, number, password, radio, search, tel, text, time, url, or week. 11. Duplicate ID form_boxes. 12. The first occurrence of ID form_boxes was here. 13. Duplicate ID form_boxes. 14.The first occurrence of ID form_boxes was here. 15. Element a not allowed as child of element ul in this context. (Suppressing further errors from this subtree.) 16. Element a not allowed as child of element ul in this context. (Suppressing further errors from this subtree.) 17. Element a not allowed as child of element ul in this context. (Suppressing further errors from this subtree.) 18. Element a not allowed as child of element ul in this context. (Suppressing further errors from this subtree.) 19.  The value of the for attribute of the label element must be the ID of a non-hidden form control. 
+
+* Join - Error notes:
+    - Error 1 removed height and width. These are covered with custom css
+    - Error 2 updated to have a space instead of nothing. Need to check in round 2 of testing.
+    - Error 6 id="form_boxes" updated to be class instead
+    - Error 3 changed from name to text
+    - Error 16 through 18 tidied the format. Need to check in round 2 of testing.
+
 
 CSS Validator 1st round results
 
