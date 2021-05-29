@@ -328,8 +328,9 @@ html {
         background-color: #D91A32;
         border: 1px solid black;
         text-align: center;
-        margin-top: 10px;
+        padding-top: 1px;
         height: 280px;
+        width: 100%;
         
     }
 }
