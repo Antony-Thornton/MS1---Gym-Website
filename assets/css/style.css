@@ -375,7 +375,6 @@ html {
 
 .table_format {
     background-color: black;
-    border-collapse: collapse white;
     margin: 0 auto;
 }
 .table_format th {
@@ -460,7 +459,6 @@ border: 2px solid white;
     background-color:  #D91A32;
     width: 100%;
     position: absolute;
-    float: center;
     text-align: Center;
     
 }
