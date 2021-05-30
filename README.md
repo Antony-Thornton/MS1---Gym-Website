@@ -367,6 +367,8 @@ https://fontawesome.com/
 
 https://www.canva.com/en_gb/ - Self created membership option picture
 
+https://www.codegrepper.com/code-examples/css/style+youtube+embed+video+css - For the CSS video style
+
 
 
 ## Acknowlegements
