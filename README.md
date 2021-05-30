@@ -184,7 +184,7 @@ Feature 1 - Join us form. The form will allow the user to select the membership 
 
 
 ## 3.2 Features Left to Implement
-n/a
+Testing flagged that there is slight overlap of elements on the join page below 375px. 
 
 
 ## 3.3 Technologies Used
@@ -319,16 +319,26 @@ CSS Validator 4th round results
 
 ### Home Page
 
-Links - The links should all navigate correctly to the expected web pages.
+* Links - The links should all navigate correctly to the expected web pages.
+    - No issues found at time of writing
 
-Pictures - The pictures should load and not be blurry or stretched.
+* Pictures - The pictures should load and not be blurry or stretched.
+    - Issue with pictures on home page.
 
-Sizing - Using google developer the webpage should dynamically stretch using the slider.
+* Sizing - Using google developer the webpage should dynamically stretch using the slider.
+    - Home page sizing ok. Need to retest once pictures issue is corrected
+    - Classes page - Correctly displays in line under 1200px and in a grid over.
+    - Gallery - Pictures and video correctly adjusts to screen sizes
+    - Join - Elements scale correctly from 375px upwards. Slight overlap of elements below this.
 
-Text - The text should be clearly visible on each of the pages.
+* Text - The text should be clearly visible on each of the pages.
+    - No issues found at time of writing
 
-Social Media Links - The links should correctly navigate to the official pages.
-
+* Social Media Links - The links should correctly navigate to the official pages.
+    - Facebook link directs to non existent page. Replaced with https://www.facebook.com/FitnessFirstUKOfficial/ 
+    - Other links redirect correctly at time of writing
+* Video - The video should not autoplay and scale correctly.
+    - No issues found at time of writing
 
 ### 4.2.3 Device Testing
 
@@ -348,6 +358,7 @@ I have included a specific section for spelling. My dyslexia makes this part par
 As part of the testing process i asked a friend and my partner to navigate the website and test the links and provide general feedback.
 * Issue flagged with home page pictures not showing. 
 * Form only submitting Email and Date of birth
+
 # 5. Deployment
 The website will be deployed using GitHubs built in pages manager.
 
