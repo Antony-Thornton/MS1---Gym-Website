@@ -396,7 +396,11 @@ for help with this ReadMe.
 
 Thank you especially to my mentor Marcel for the time and effort provided. Including during his weekend.
 
+Thank you to Danielle and Alastair for looking through my website and helping with the testing phase.
+
 Where possible acknowledgements will be noted in the code.
+
+
 
 # 7. Lessons learnt
 ## 7.1 Lessons
