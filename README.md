@@ -5,7 +5,7 @@
 
 ## 1. Project Status
 ## 2. User Story
-* 2.1 The business case(Project Goals)
+* 2.1 The business case (Project Goals)
 * 2.2 Wireframes
 * 2.3 Website Objectives:
 * 2.4 Design Inspiration
@@ -25,7 +25,7 @@
 ## 6. Credits
 * 6.1 Content
 * 6.2 Media
-* 6.3 Acknowlegements
+* 6.3 Acknowledgements
 ## 7. Lessons Learnt
 * 7.1 Lessons
 * 7.2 Future study points
@@ -33,10 +33,15 @@
 
 # 1. Project Status
 The project is currently underway with a deadline of 5th June 2021.
-The index page is largly finished but needs testing.
+The website is nearly finished. The following needs to be completed before submission:
+* Home page picture issue
+* ReadMe needs proof reading and finishing
+* Check details on how to submit
+* 
+
 
 # 2. User Story
-## 2.1 The business case(Project Goals):
+## 2.1 The business case (Project Goals):
 I was asked by my local gym Fitness First to create a wesbite for their gym. They have decided, that to increase the number of members using the gym, that they need a website with more information.
 This website will be designed to give users more information about the gym known as "Fitness First". The website is aimed at users looking to join this gym and or get information on classes that they may find interesting.
 
@@ -44,14 +49,14 @@ Once the user has navigated the whole website they will have a better understand
 
 If they are then happy with the service the user will be able to join the gym using a form on a join page. 
 
-The overal story would be as follows:
+The overall story would be as follows:
 * Search for the gym (either via google or by entering the domain directly)
 * Once loaded, the homepage will help the user understand the structure of the website, what pages it has and how to get more information
-* The user can then chose between visiting the; Home page, Classes information page, gallery and Join page
+* The user can then choose between visiting the; Home page, Classes information page, gallery and Join page
 
 ## 2.2 Wireframes
 
-### SiteMap
+### Sitemap
 
 ![index web](documentation-assets/wireframe-images/site_map_wireframe.jpg)
 
@@ -234,7 +239,7 @@ Errors per page:
 * Index - 3 errors
     - 1. Attribute no-repeat not allowed on element img at this point. 2. Attribute center not allowed on element img at this point. 3. Bad value ./assets/images/Membership Options.png for attribute src on element img: Illegal character in path segment: space is not allowed.
 
-* Index  - Error Notes:
+* Index - Error Notes:
     - Error 3 changed file name of membership options.
 
 * Classes - 0 errors
@@ -280,7 +285,7 @@ HTML Validator 2nd round results
 
 * Join - Error notes:
     - Error 1 and 2. Added <option disabled selected value> -- select an option -- </option> courtesy of https://stackoverflow.com/questions/8605516/default-select-option-as-blank
-    - Error 8 changed  "select class="custom_select" required=""" to "select id="custom_select" required=""". Check in round 3.
+    - Error 8 changed "select class="custom_select" required=""" to "select id="custom_select" required=""". Check in round 3.
     - Error 3 through 6 looks to be a copy and paste duplication. Check in round 3.
 
 CSS Validator 2nd round results
@@ -308,7 +313,7 @@ HTML Validator 4th round results
 * Join - 0 errors found
 
 * Gallery - Error Notes:
-    - Removed the Framborder element.
+    - Removed the frameborder element.
 
 
 CSS Validator 4th round results
@@ -337,7 +342,7 @@ CSS Validator 4th round results
 * Social Media Links - The links should correctly navigate to the official pages.
     - Facebook link directs to non existent page. Replaced with https://www.facebook.com/FitnessFirstUKOfficial/ 
     - Other links redirect correctly at time of writing
-* Video - The video should not autoplay and scale correctly.
+* Video - The video should not auto play and scale correctly.
     - No issues found at time of writing
 
 ### 4.2.3 Device Testing
@@ -346,12 +351,12 @@ The website was tested on the following devices:
 
 * Windows 10 Laptop
 * Samsung Galaxy 10+ mobile phone
-* Iphone 12Pro
-* Ipad Mini (unknown make)
+* IPhone 12Pro
+* IPad Mini (unknown make)
 
 ### 4.2.4 Spelling
 
-I have included a specific section for spelling. My dyslexia makes this part particularly troublesome. In order to ensure that my spelling is correct I have taken each page and put it into word to spell check. I then manually correct the page in GitPod.
+I have included a specific section for spelling. My dyslexia can make this part particularly troublesome. In order to ensure that my spelling is correct I have taken each page and put it into word to spell check. I then manually correct the page in GitPod.
 
 ### 4.2.5 User testing and feedback
 
@@ -360,7 +365,7 @@ As part of the testing process i asked a friend and my partner to navigate the w
 * Form only submitting Email and Date of birth
 
 # 5. Deployment
-The website will be deployed using GitHubs built in pages manager.
+The website will be deployed using GitHubs built in pages' manager.
 
 Step 1 - Log in to GitHub page
 
@@ -395,12 +400,12 @@ https://www.codegrepper.com/code-examples/css/style+youtube+embed+video+css - Fo
 
 
 
-## Acknowlegements
+## Acknowledgements
 This project was inspired by Code Institute as part of my First Milestone Project (MS1). 
 
 Thank you to:
 https://www.gitpod.io/blog/gitpodify/ 
-for references to using gitpod. Specifically openeing a preview.
+for references to using gitpod. Specifically opening a preview.
 
 https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project 
 for help with this ReadMe.
