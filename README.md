@@ -297,6 +297,22 @@ HTML Validator 3rd round results
 CSS Validator 3rd round results
 * CSS - 0 errors found on home page. 0 errors found on classes page. 0 errors found on gallery page. 0 errors found on join page. 
 
+Added a video. Retest required.
+
+HTML Validator 4th round results
+
+* Index - 0 Errors found. Document checking completed. No errors or warnings to show.
+* Classes - 0 Errors found. Document checking completed. No errors or warnings to show.
+* Gallery - 1 warning found. See round 1 notes. 1 error found.
+    - 1. The frameborder attribute on the iframe element is obsolete. Use CSS instead.
+* Join - 0 errors found
+
+* Gallery - Error Notes:
+    - Removed the Framborder element.
+
+
+CSS Validator 3rd round results
+* CSS - 0 errors found on home page. 0 errors found on classes page. 0 errors found on gallery page. 0 errors found on join page. 
 
 
 ### 4.2.2 Functionality Testing
@@ -334,7 +350,6 @@ I have included a specific section for spelling. My dyslexia makes this part par
 As part of the testing process i asked a friend and my partner to navigate the website and test the links and provide general feedback.
 * Issue flagged with home page pictures not showing. 
 * Form only submitting Email and Date of birth
-
 # 5. Deployment
 The website will be deployed using GitHubs built in pages manager.
 
