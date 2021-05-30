@@ -280,7 +280,7 @@ HTML Validator 2nd round results
 
 * Join - Error notes:
     - Error 1 and 2. Added <option disabled selected value> -- select an option -- </option> courtesy of https://stackoverflow.com/questions/8605516/default-select-option-as-blank
-    - Error 8 changed <select class="custom_select" required=""> to <select id="custom_select" required="">. Check in round 3.
+    - Error 8 changed  "select class="custom_select" required=""" to "select id="custom_select" required=""". Check in round 3.
     - Error 3 through 6 looks to be a copy and paste duplication. Check in round 3.
 
 CSS Validator 2nd round results
@@ -328,8 +328,6 @@ Sizing - Using google developer the webpage should dynamically stretch using the
 Text - The text should be clearly visible on each of the pages.
 
 Social Media Links - The links should correctly navigate to the official pages.
-
-Other - There are no other functions on this page that need to be tested.
 
 
 ### 4.2.3 Device Testing
