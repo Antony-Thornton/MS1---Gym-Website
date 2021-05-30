@@ -311,7 +311,7 @@ HTML Validator 4th round results
     - Removed the Framborder element.
 
 
-CSS Validator 3rd round results
+CSS Validator 4th round results
 * CSS - 0 errors found on home page. 0 errors found on classes page. 0 errors found on gallery page. 0 errors found on join page. 
 
 
