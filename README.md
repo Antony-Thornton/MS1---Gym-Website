@@ -1,6 +1,10 @@
 # MS1---Gym-Website
 
 # Fitness First Website (Members only Gym)
+
+![index web](documentation-assets/wireframe-images/website_home_page.jpg)
+
+
 # Contents
 
 ## 1. Project Status
