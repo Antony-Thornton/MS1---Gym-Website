@@ -1,3 +1,14 @@
+/* D91A32 default red based on FF branding */
+
+/* Contents (for quick search):
+1. Header Formatting
+2. Main body
+3. Main column content Classes Page
+4. Footer Formatting
+5. Media size coding
+6. Youtube Styling
+
+*/
 * {
     font-family:Arial, Helvetica, sans-serif;
     color: white;
@@ -5,10 +16,10 @@
     padding: 0;
 }
 
-/*D91A32 default red */
 
 
-/* Header Formatting */
+
+/* ****** 1. Header Formatting ****** */
 
 #header_advert {
     height: auto;
@@ -78,14 +89,13 @@ html {
     background-size: cover;
 }
 
-
-
 #hero_outer{
     height:600px;
     width: 100%;
     overflow:hidden;
     position: relative;
 }
+
 #cover_text {
     font-size: 130%;
     text-transform: uppercase;
@@ -109,7 +119,6 @@ html {
     position: absolute;
 
 }
-
 /* End */
 
 #quick_nav {
@@ -153,33 +162,28 @@ html {
     letter-spacing: 5px;
 }
 
-
 #quick_nav li:hover {
     background-color: #D91A32;
 
 }
-#quick_nav li a:active {
- 
+
+#quick_nav li a:active { 
     background-color: #D91A32;
 }
-
-
 
 #main_section {
     height: auto;
     background-color: black;
 }
 
-/* ********* Main body Page ********* */
-
-
-
+/* ********* 2. Main body ********* */
 .col_format1 {
     height: 900px;
     width: 100%;
     background-color: white;
 
 }
+
 .col_format1 img{
     height: 900px;
     width: 100%;
@@ -215,17 +219,17 @@ html {
 .class_box a    {
     text-decoration: none;
 }
+
 .class_box h3 {
     text-decoration: none;
     text-transform: uppercase;
 
 
 }
+
 .class_box h3:hover {
     background-color: #D91A32;
-
 }
-
 
 .class_box h6{
     padding-bottom: 15px;
@@ -234,35 +238,9 @@ html {
     text-transform: uppercase;
 }
 
-
-
 .class_box p {
     font-size: 1rem;
 }
-
-/* Styled two photos one for mobile and another for desktop / tablet */
-@media only screen and (max-width: 600px) {
-    #class_photo_1 {
-        display: none;
-    }
-    #class_photo_2 {
-        display: block; 
-    }
-    .col_format1 {
-        background-color: #D91A32;
-    }
-}
-
-@media only screen and (min-width: 600px) {
-    #class_photo_1 {
-        display: block;
-    }
-    #class_photo_2 {
-        display: none; 
-    }
-}
-
-
 
 .col_format2 {
     height: auto;
@@ -270,7 +248,6 @@ html {
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     padding: 0;
- 
 }
 
 .col_format3 {
@@ -280,26 +257,21 @@ html {
     width: 100%;
     color: white;
     background-color:#D91A32;
-
 }
 
 .col_format3 h1{ 
     text-decoration: underline;
     letter-spacing: 1px;
-
 }    
 
 #membership_options_img {
     height: auto;
     width: 100%;
-
 }
 
 .p_links:hover {
     background-color: #D91A32;
-
 }
-
 
 #photo {
     clear:both;
@@ -312,54 +284,7 @@ html {
     width: 100%;
 }
 
-
-
-/* ********* Main column content Classes Page ********* */
-
-/* Thank you to Marcel for helping me fix the media size issue. It looks much better!*/
-@media only screen and (max-width: 1200px) {
-    .container {
-        margin-left: auto;
-        margin-right: auto;
-        width: 300px;
-    }
-    
-    .col {
-        background-color: #D91A32;
-        border: 1px solid black;
-        text-align: center;
-        padding-top: 1px;
-        height: 280px;
-        width: 100%;
-        
-    }
-}
-
-@media only screen and (min-width: 1200px) {
-    .container {
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        width: 1200px;
-    }
-    
-    .col {
-        width: 25%;
-        height: 350px;
-        background-color: #D91A32;
-        padding-left: 10%;
-        padding-right: 10%;
-        border: 1px solid black;
-        text-align: center;
-        display: inline-flex;
-        margin-top: 10px;
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-}
-
-
-
+/* ********* 3. Main column content Classes Page ********* */
 .col h3 {
     background-color: black;
     padding-bottom: 5px;
@@ -371,13 +296,12 @@ html {
     margin: 10px;
 }
 
-
 .table_format {
     background-color: black;
     margin: 0 auto;
 }
-.table_format th {
 
+.table_format th {
 border: 2px solid white;
 }
 
@@ -404,8 +328,6 @@ border: 2px solid white;
     width: 100%;
 }
 
-
-
 .col_form {
     width: 100%;
     height: 600px;
@@ -416,11 +338,8 @@ border: 2px solid white;
     border: 1px solid black;
     text-align: center;
     background: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallsdesk.com%2Fwp-content%2Fuploads%2F2016%2F10%2FGym-Desktop.jpg&f=1&nofb=1") no-repeat center center;
-    background-size: cover;
-    
+    background-size: cover;   
 }
-
-
 
 .form {
     margin-top: 258px;
@@ -461,7 +380,6 @@ border: 2px solid white;
     text-align: Center;
     
 }
-
 
 .form_boxes {
     padding: 1px;
@@ -556,12 +474,10 @@ option::selection {
     color: white;
 }
 
-
 #birthdate:hover {
     background-color: black;
     color: white;
 }
-
 
 .button {
  background-color: black; /* Green */
@@ -571,6 +487,7 @@ option::selection {
   display: inline-block;
   box-shadow: 1px 1px white;
 }
+
 .button:hover {
  background-color: white; /* Green */
   color: Black;
@@ -580,10 +497,7 @@ option::selection {
   box-shadow: 1px 1px black;
 }
 
-
-/* ********* Footer Formatting ********* */
-
-
+/* ********* 4. Footer Formatting ********* */
 .footer_div {
     padding-top: 20px;;
     text-align: center; 
@@ -626,10 +540,7 @@ footer div h1 {
 }
 /* End */
 
-
-
-
-
+/* ****** 5. Media size coding ****** */
 @media only screen and (max-width: 490px) {
 #google_map {
     width: 100%;
@@ -641,11 +552,77 @@ footer div h1 {
     font-size: 1.0rem;
     text-transform: uppercase;
     background-color: black;
+    }   
 }
 
+
+/* Styled two photos one for mobile and another for desktop / tablet */
+@media only screen and (max-width: 600px) {
+    #class_photo_1 {
+        display: none;
+    }
+    #class_photo_2 {
+        display: block; 
+    }
+    .col_format1 {
+        background-color: #D91A32;
+    }
 }
 
-/* Youtube styling - Credit https://www.codegrepper.com/code-examples/css/style+youtube+embed+video+css
+@media only screen and (min-width: 600px) {
+    #class_photo_1 {
+        display: block;
+    }
+    #class_photo_2 {
+        display: none; 
+    }
+}
+
+
+/* Thank you to Marcel for helping me fix the media size issue. It looks much better!*/
+@media only screen and (max-width: 1200px) {
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+    }
+    
+    .col {
+        background-color: #D91A32;
+        border: 1px solid black;
+        text-align: center;
+        padding-top: 1px;
+        height: 280px;
+        width: 100%;
+        
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .container {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1200px;
+    }
+    
+    .col {
+        width: 25%;
+        height: 350px;
+        background-color: #D91A32;
+        padding-left: 10%;
+        padding-right: 10%;
+        border: 1px solid black;
+        text-align: center;
+        display: inline-flex;
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+/* ****** 6. Youtube styling ****** 
+Credit https://www.codegrepper.com/code-examples/css/style+youtube+embed+video+css
 No changes to code needed.
 */
 .iframe-container{
@@ -654,6 +631,7 @@ No changes to code needed.
   padding-bottom: 56.25%; 
   height: 0;
 }
+
 .iframe-container iframe{
   position: absolute;
   top:0;
