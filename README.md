@@ -32,12 +32,9 @@
 
 
 # 1. Project Status
-The project is currently underway with a deadline of 5th June 2021.
-The website is nearly finished. The following needs to be completed before submission:
-* Home page picture issue
-* ReadMe needs proof reading and finishing
-* Check details on how to submit
-* 
+Deadline: 5th June 2021
+
+The project is in the final checking stages. It should be considered ready for publication. Final checks against marking criteria required. 
 
 
 # 2. User Story
@@ -319,6 +316,16 @@ HTML Validator 4th round results
 CSS Validator 4th round results
 * CSS - 0 errors found on home page. 0 errors found on classes page. 0 errors found on gallery page. 0 errors found on join page. 
 
+HTML Validator final round results
+
+* Index - 0 Errors found. Document checking completed. No errors or warnings to show.
+* Classes - 0 Errors found. Document checking completed. No errors or warnings to show.
+* Gallery - 1 warning found. See round 1 notes. 1 error found.
+* Join - 0 errors found
+
+CSS Validator final round results
+* CSS - 0 errors found on home page. 0 errors found on classes page. 0 errors found on gallery page. 0 errors found on join page. 
+
 
 ### 4.2.2 Functionality Testing
 
@@ -427,6 +434,18 @@ More practice projects and pushing the boundaries will help massively. Gaining e
 Need to plan the layout and content first. Not necessarily the "design" but what I actually want to do at a high level. See https://creately.com/blog/diagrams/website-planning-guide/
 
 Need to push changes more frequently and appropriately. I.e when i make a small change to something like the height of an existing element.
+
+Had an issue with pictures not displaying on the home page. It could have been one of two issues; I added 2 full stops in the file path instead of 1 "img src="../assets/images/gym6.1.jpg" alt="Fitness First Gym Picture Classes"", the file picture size was too big or a combination of the two.
+
+Embedding existing code (i.e. youtube/google maps) is easy to do and should be considered going forward.
+
+Padding was causing an issue with displaying DIV's inline. 
+
+Having a clear structure for the CSS file upfront will help with navigation.
+
+Having a good README up front is extremely useful.
+
+As with work VBA building a database of frequently used code and structures will be good for new projects.
 
 ## 7.2 Future study points
 Need to revisit the media screen size lesson. I understand the concept but not the application.
