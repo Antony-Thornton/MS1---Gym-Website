@@ -25,6 +25,7 @@
     - 4.2.2 Functionality Testing
     - 4.2.3 Device Testing
     - 4.2.4 Spelling and Grammar
+* 4.3 Bugs
 ## 5. Deployment
 ## 6. Credits
 * 6.1 Content
@@ -121,7 +122,7 @@ and prices. Another floating text box below this will show a join us form with i
 
 ![index web](documentation-assets/wireframe-images/join_us_mobile.jpg)
 
-### Website Wireframe
+### Desktop Wireframe
 
 General Layout
 
@@ -320,14 +321,14 @@ HTML Validator 4th round results
 CSS Validator 4th round results
 * CSS - 0 errors found on home page. 0 errors found on classes page. 0 errors found on gallery page. 0 errors found on join page. 
 
-HTML Validator final round results
+HTML Validator 5th round results
 
 * Index - 0 Errors found. Document checking completed. No errors or warnings to show.
 * Classes - 0 Errors found. Document checking completed. No errors or warnings to show.
 * Gallery - 1 warning found. See round 1 notes. 1 error found.
 * Join - 0 errors found
 
-CSS Validator final round results
+CSS Validator 5th round results
 * CSS - 0 errors found on home page. 0 errors found on classes page. 0 errors found on gallery page. 0 errors found on join page. 
 
 
@@ -363,7 +364,7 @@ The website was tested on the following devices:
 * Windows 10 Laptop
 * Samsung Galaxy 10+ mobile phone
 * IPhone 12Pro
-* IPad Mini (unknown make)
+* IPad Mini (unknown model)
 
 ### 4.2.4 Spelling
 
@@ -374,6 +375,33 @@ I have included a specific section for spelling. My dyslexia can make this part 
 As part of the testing process i asked a friend and my partner to navigate the website and test the links and provide general feedback.
 * Issue flagged with home page pictures not showing. 
 * Form only submitting Email and Date of birth
+
+## 4.3 Bugs
+List of noticed bugs with notes:
+* Issue with divs not displaying in line on the classes page
+    - Resolved with media query
+* Picture on the home page looked blurry below certain resolution
+    - Used media query to remove the picture and show a red background instead
+    - Potential to change this so that an image displays but would require the mobile version of the classes list to be adjusted to accomodate
+* Embedded Google Maps link was indented to the right cutting off a section of the map
+    - Imported styling caused the issue. Removed this to resolve
+* Images not loading on the home page after Deployment
+    - Issue was due to an additional full stop. The line img src="../assets/images/gym6.1.jpg" alt="Fitness First Gym Picture Classes" should have been img src="../assets/images/gym6.1.jpg" alt="Fitness First Gym Picture Classes"
+* Form not submitting all information. Only submitted email and DOB
+    - Failed to name the other form list items. Noted in the html file
+* Highlighted text in the navigation bar not lining up correctly
+    - Issue was due to unnecessary padding. Padding removed.
+* Overlapping elements on the join page below 370px
+    - Future development point. Unlikely to impact many users if any.
+* Underline appeared between the social media links
+    - Added text decoration to remove.
+* Facebook page didn't load on testing
+    - Website link was out of date as page was deleted. No link added.
+* Text color in user form matched the background so the user couldn't see the text.
+    - Added css to change text color
+* Input boxes had different lengths
+    - Added css to ensure that the boxes lined up on the dekstop version. 
+    - Could add css for a minimum sized window so they line up but not critical.
 
 # 5. Deployment
 The website will be deployed using GitHubs built in pages' manager.
