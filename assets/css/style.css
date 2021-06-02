@@ -269,8 +269,14 @@ html {
     width: 100%;
 }
 
-.p_links:hover {
+.pelaton_link {
+    text-decoration: underline;
+    color: #D91A32;
+}
+
+.pelaton_link:hover {
     background-color: #D91A32;
+    color: white;
 }
 
 #photo {
