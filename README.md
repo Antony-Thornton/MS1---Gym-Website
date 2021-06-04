@@ -1,6 +1,6 @@
 # MS1---Gym-Website
 
-# Fitness First Website (Members only Gym)
+# Fitness First Website (Members Only Gym)
 
 ![index web](documentation-assets/wireframe-images/website_home_page.jpg)
 
@@ -9,7 +9,7 @@
 
 ## 1. Project Status
 ## 2. User Story
-* 2.1 The business case (Project Goals)
+* 2.1 The Business Case (Project Goals)
 * 2.2 Wireframes
 * 2.3 Website Objectives:
 * 2.4 Design Inspiration
@@ -20,7 +20,7 @@
 ## 4. Testing
 * 4.1 Informal
 * 4.2 Formal
-    - 4.2.1 External website testing
+    - 4.2.1 External Website Testing
      + 4.2.1.1 Testing Results
     - 4.2.2 Functionality Testing
     - 4.2.3 Device Testing
@@ -33,7 +33,7 @@
 * 6.3 Acknowledgements
 ## 7. Lessons Learnt
 * 7.1 Lessons
-* 7.2 Future study points
+* 7.2 Future Study Points
 
 
 # 1. Project Status
@@ -44,17 +44,17 @@ The project is in the final checking stages. It should be considered ready for p
 
 # 2. User Story
 ## 2.1 The business case (Project Goals):
-I was asked by my local gym Fitness First to create a wesbite for their gym. They have decided, that to increase the number of members using the gym, that they need a website with more information.
-This website will be designed to give users more information about the gym known as "Fitness First". The website is aimed at users looking to join this gym and or get information on classes that they may find interesting.
+I was asked by my local gym Fitness First to create a wesbite for their gym. They have decided, that to increase the number of members using the gym, they need a website with more information.
+This website will be designed to give users more information about the gym known as "Fitness First". The website is aimed at users looking to join this gym and/or get information on classes that they may find interesting.
 
-Once the user has navigated the whole website they will have a better understanding of what the gym is, what it has to offer and be able to see some of its facilities. 
+Once the user has navigated the whole website, they will have a better understanding of what the gym is what it has to offer and be able to see some of its facilities. 
 
-If they are then happy with the service the user will be able to join the gym using a form on a join page. 
+If they are then happy with the available services the user will be able to join the gym using a form on a join page. 
 
 The overall story would be as follows:
 * Search for the gym (either via google or by entering the domain directly)
 * Once loaded, the homepage will help the user understand the structure of the website, what pages it has and how to get more information
-* The user can then choose between visiting the; Home page, Classes information page, gallery and Join page
+* The user can then choose between visiting the; Home page, Classes information page, gallery and Join html page
 
 ## 2.2 Wireframes
 
@@ -64,9 +64,9 @@ The overall story would be as follows:
 
 ### Mobile Wireframes
 
-General layout
+General Layout
 
-The general layout looks primarily at the heading/navigation secion as well as the footer. The website wireframes were desinged with a mobile first approach.
+The general layout looks primarily at the heading/navigation section as well as the footer. The website wireframes were desinged with a mobile first approach.
 The idea behind this was so that when the screen size expands the elements will shift accordingly left and right as if being stretched.
 
 Header
@@ -89,7 +89,7 @@ The main body of text will be expanded in further wireframes due to the need for
 Home Page layout
 
 The home page main body will consist of; generic gym picture with a floating text box that shows the 4 classes that the gym has available; spinning, yoga, boxing and aquafit.
-The text will be a mixture of HTML elements, namely P and H1-H6. Below this will be a number of pictures of current gym users. At the very bottom will be a picture, created in canva
+The text will be a mixture of HTML elements, namely P and H1-H6. Below this will be a number of pictures of current gym users. At the bottom will be a picture, created in canva
 showing the current membership options and linking to the join us page.
 
 
@@ -108,7 +108,7 @@ of days and times. Each section will look the same and will be under each other 
 
 Gallery Page Layout 
 
-The gallery page will include 4 images of the gym facilities. It is designed to show case the gym facilities themselves.
+The gallery page will include 4 images of the gym facilities. It is designed to showcase the gym facilities themselves.
 
 ![index web](documentation-assets/wireframe-images/gallery_mobile_part1.jpg)
 
@@ -168,18 +168,18 @@ Join Us Page Layout
 * Help users find the gym
 
 ## 2.4 Design Inspiration
-My main Inspiration for the website design can be credited to "https://www.fitnessfirst.co.uk/". I have tried to take the themes that I liked and apply them to my website. I particularly like the linear structrue of the site. With the key points displayed in clear, defined sections. The colour scheme was created through a combination of the existing branding as well as the branding I have seen attending my local gym.
+My main Inspiration for the website design can be credited to "https://www.fitnessfirst.co.uk/". I have tried to take the themes that I liked and apply them to my website. I particularly like the linear structure of the site. With the key points displayed in clear, defined sections. The colour scheme was created through a combination of the existing branding, as well as the branding I have seen attending my local gym.
 I used an online website to get the colour code using the logo as a reference point.
 
 
 # 3. Features
 The website will be made up of a number of pages:
 
-index.html - I.e. the home page. This landing page will be made of up of a number of naviagation options, made up of sections and will be used to promote the other pages
+index.html - I.e. the home page. This landing page will be made of up of a number of navigation options, made up of sections and will be used to promote the other pages
 
 classes.html - A breakdown of all the available classes at the gym. 
 
-gallery.html - The gallery page will provide a pictures of the gym facilities. 
+gallery.html - The gallery page will provide pictures of the gym facilities. 
 
 join.html - The join page will give the user a map to the gym with a google maps link and a number of membership options to select from and a join form that they can fill out and submit to join. 
 
@@ -225,7 +225,7 @@ issue where pictures were not appearing on the home page.
 ## 4.2 Formal Deployment Testing
 ### 4.2.1 External website testing
 
-In order to ensure that my code is correct i used the following website to flag issues with my code.
+In order to ensure that my code is correct I used the following website to flag issues with my code.
 
 
 https://validator.w3.org/ - HTML validator. Looks specifically for errors in my HTML code.
@@ -343,7 +343,7 @@ CSS Validator 5th round results
     - Issue with pictures on home page.
 
 * Sizing - Using google developer the webpage should dynamically stretch using the slider.
-    - Home page sizing ok. Need to retest once pictures issue is corrected
+    - Home page sizing ok. Need to retest once the issues with the picture is corrected
     - Classes page - Correctly displays in line under 1200px and in a grid over.
     - Gallery - Pictures and video correctly adjusts to screen sizes
     - Join - Elements scale correctly from 375px upwards. Slight overlap of elements below this.
@@ -382,7 +382,7 @@ List of noticed bugs with notes:
     - Resolved with media query
 * Picture on the home page looked blurry below certain resolution
     - Used media query to remove the picture and show a red background instead
-    - Potential to change this so that an image displays but would require the mobile version of the classes list to be adjusted to accomodate
+    - Potential to change this so that an image displays but would require the mobile version of the classes list to be adjusted to accommodate
 * Embedded Google Maps link was indented to the right cutting off a section of the map
     - Imported styling caused the issue. Removed this to resolve
 * Images not loading on the home page after Deployment
@@ -400,7 +400,7 @@ List of noticed bugs with notes:
 * Text color in user form matched the background so the user couldn't see the text.
     - Added css to change text color
 * Input boxes had different lengths
-    - Added css to ensure that the boxes lined up on the dekstop version. 
+    - Added css to ensure that the boxes lined up on the desktop version. 
     - Could add css for a minimum sized window so they line up but not critical.
 
 # 5. Deployment
@@ -465,7 +465,7 @@ More practice projects and pushing the boundaries will help massively. Gaining e
 
 Need to plan the layout and content first. Not necessarily the "design" but what I actually want to do at a high level. See https://creately.com/blog/diagrams/website-planning-guide/
 
-Need to push changes more frequently and appropriately. I.e when i make a small change to something like the height of an existing element.
+Need to push changes more frequently and appropriately. i.e when I make a small change to something like the height of an existing element.
 
 Had an issue with pictures not displaying on the home page. It could have been one of two issues; I added 2 full stops in the file path instead of 1 "img src="../assets/images/gym6.1.jpg" alt="Fitness First Gym Picture Classes"", the file picture size was too big or a combination of the two.
 
